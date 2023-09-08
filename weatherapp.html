@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather_of_nirmal.css">
+    
+
+    <title>Weather Nirmal Rawal</title>
+</head>
+<body>
+
+    
+    <div class="app-main">
+        <div class="searchInputBox">
+            <input type="text" id="input-box" class="input-box" placeholder="Enter city name..." autocomplete="off">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIMAAACDCAMAAACZQ1hUAAAAYFBMVEX///8AAADs7OxRUVH4+Pjy8vL19fX8/Pw8PDzv7+/f39/MzMy2trYfHx9eXl7Y2NhFRUWhoaFra2uLi4uWlpatra0QEBAXFxdycnJjY2Pl5eV+fn4sLCxMTEwzMzPCwsI2d3ZQAAAElElEQVR4nO1aaYOiMAyV+xKhCMol/P9/udoWhCqOacLg7vo+zhgI6Xs52u52X3zxxT8CzzHrMKxNx9vi7XYdsczv2jg+n+O47fyMRbX7iw64fWOdjAecLk3/S27sy8fX35HtV3cgzJ8EQAnHMVzTg7o5q2+8suHhb6eyXssD+zh7k1+yPoqSMEySqGeNP/tnsw4x9pNXWHn0+IMoP0x+UtB7EN6fb7F6IR94NbPuP0uIXdjH46Mj+9UPvWh09kwrkZEJ1ZM1UJFkw6+PdB44Q4DTNzy4IRoMLg6RC2Yrn5i/XIUpPCbTSGySuhCDOBYOVhSpopZsLKG1sZHMxGfNQH4Pg5syquVIERlHZjUf2V00qKQnnShRLshwaiebXgoK4UKETv2FeMKbeeUZOnwoxWLG2vYiQ1sYF3a7AyprhyRJRuYXzSKa4fg4QPDyoCVQQcgD1oXhW3odU9GcEdScgD+o1bDs6TqAXHdROZ9bktJrdnr6CtEJbgKRbsEFlOeGE00Hsgt4R9MArdxOx2oR/Iu6AGaUYBLLI0KdqlHqymkBvBPKQCZ2SsjIG7g8fdAAmJyQFVdFBF9b3gDFlDs8HbgRaQiK9hwVuBPxiekg0xSI5NgG7BGCEACDmidJ0i2dmrMc0A/xDNWSbuiIugUILZfFhXQ7x7aA9ZsRdVATeFwYgIlxBR9ERweQGveh+vd8KHV8+IS1IPahAvpQ6E8lSwDrgvf1KdWeGocLzQ9r5MkW2ECYtN3kDSF4atOfEJcArps7i2zOGyAaSojFEWzxEyzwvMKFERMWTrcFj73hmZgQ/KNOMJZfSEc92SSnMBsx8tL5oDP0ag2Iy9AYca6t1wU+IL4AL9wplOOa2xbPwft0+LwiNrKIWCk2W+H1J6ObMcQ2qcbCil0QEkaU2gSvqIqn+BqtCVqYpvhu6oLQeaPHZhVCYZoHEI5BkajkOYzuLqM4hIFu6c3hiEM5/aOgiz6bBohTZ0QrYsaYtbxBcOqEaY/luZx2Vyd27JHnMDnKCWmNlZa8y6BVOIZbE29fF1iCvNaRgacud7xHdcFu/zvSiRRYvsL7zRjDQsl7N7QzBrDF7Y0psMfuQ/UyjOptidWZMYePjcRIrjN7qx2zWWyosNBHQuP9rLT4MarePn3wwKDYagzHq2hn9jKszj0GvjVzAnZ68Qx2fn/aoV8IrNlPeHC0RzbLGOJP6JJJiLuKhcEs9dhByLJu8tW3BsycRwIt0Sv2s1uKJ6s5Fvu+j/p9kasXS2WtDua3CfESvaKYP3MB7b1b8BQnCCKxs/tq4cUjDv10kQJlOWhObRPWLbz9ii5XG3FzTkyyG3R10bSP749L9qymuMpyoKvoHUFUHJvKSq+wqqYposWldsklOoPnOle4P9BdlSixE+9hDYmCsYZEwXA+YTnWkigIK0r0fdBXUQ18hkTnDVa6yXKoEt2EmIpE0cOPFhRObCNR5yPStkLMT1iO/1ii9leiEgonyM5JQJhJdJuWZibRbcr4DePwg5/H9WGKSPibEHIAl+iWUbjhOvxsx4UBZraRIr744ou/D38Ax8ou98HeUbEAAAAASUVORK5CYII=" alt="Search Icon" class="search-icon">
+        </div>
+
+        <div class="weather-body">
+            <div class="location-details">
+                <div class="city" id="city"></div>
+                <div class="date" id="date"></div>
+            </div>
+
+            <div class="weather-status">
+                <div class="temp" id="temp"></div>
+                <div class="min-max" id="min-max"></div>
+                <div class="weather" id="weather">Weather conditon</div>
+                <div class="humidity"></div>
+                <div class="windSpeed"></div>
+                <div class="pressure"></div>
+                <p class="history">For pervious Week data.<a href="nirmal.php">Click me!</a></p>
+                
+                
+               
+                 
+            
+            </div>
+        </div>
+        
+    </div>
+    
+
+    <script src="weather_of_nirmal.js"></script>
+</body>
+</html>
